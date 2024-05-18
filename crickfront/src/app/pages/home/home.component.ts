@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
-
+  currentPlayer: string = 'sachin'; // Default to Sachin Tendulkar
 }
