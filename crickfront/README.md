@@ -1,27 +1,36 @@
-# Crickfront
+# CrickSync
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.2.
+CrickSync is a web application developed using Spring Boot and Angular. It provides real-time updates, live scores, match schedules, and team coordination for cricket enthusiasts.
 
-## Development server
+## Screenshots
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Homepage
 
-## Code scaffolding
+![Homepage](./src/assets/ss1.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Live Cricket Score
 
-## Build
+![Live Cricket Score](./src/assets/ss2.png)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### History
 
-## Running unit tests
+![Match History](./src/assets/ss3.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Point-Table
 
-## Running end-to-end tests
+![Point-Table](./src/assets/ss4.png)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Features
 
-## Further help
+- **Real-time Updates:** Get the latest updates and scores in real-time as the cricket matches progress.
+- **Live Scores:** Stay updated with live scores of ongoing matches.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Technologies Used
+
+- **Frontend:** Angular
+- **Backend:** Spring Boot
+- **Real-time Updates:** WebSocket
+- **Database:** MySQL/PostgreSQL (or any other supported by Spring Data JPA)
+- **Authentication:** JWT (JSON Web Tokens)
+
